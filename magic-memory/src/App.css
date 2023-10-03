@@ -5,10 +5,10 @@
 
 button {
   background: none;
-  border: 2px solid #fff;
+  border: 2px solid #0a0a0a;
   padding: 6px 12px;
   border-radius: 4px;
-  color: #fff;
+  color: #fd0202;
   font-weight: bold;
   cursor: pointer;
   font-size: 1em;
@@ -16,12 +16,12 @@ button {
 
 button:hover {
   background: #c23866;
-  color: #fff;
+  color: #0a0a0a;
 }
 
 .card-grid {
   margin-top: 40px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 40px;
 }

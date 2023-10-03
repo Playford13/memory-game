@@ -3,12 +3,12 @@ import "./App.css";
 import SingleCard from "./components/SingleCard";
 
 const cardImages = [
-  { src: "/img/helmet-1.png", matched: false },
-  { src: "/img/potion-1.png", matched: false },
-  { src: "/img/ring-1.png", matched: false },
-  { src: "/img/scroll-1.png", matched: false },
-  { src: "/img/shield-1.png", matched: false },
-  { src: "/img/sword-1.png", matched: false },
+  { src: "/img/bacardi-1.png", matched: false },
+  { src: "/img/jager-1.png", matched: false },
+  { src: "/img/jw-1.png", matched: false },
+  { src: "/img/heineken-1.png", matched: false },
+  { src: "/img/stella-1.png", matched: false },
+  { src: "/img/hennessy-1.png", matched: false },
 ];
 
 function App() {
@@ -70,7 +70,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Magic Match</h1>
+      <h1>Alcohol Match</h1>
       <button onClick={shuffleCards}>New Game</button>
 
       <div className="card-grid">

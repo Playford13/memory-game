@@ -1,9 +1,10 @@
 /* BASE STYLES */
+
 body {
-  font-family: Raleway, sans-serif;
+  font-family: "Dela Gothic One", cursive;
   margin: 0;
   font-size: 1.5em;
   text-align: center;
-  background: #1b1523;
-  color: #fff;
+  background: #ffffff;
+  color: #f50404;
 }
